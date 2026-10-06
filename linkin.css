@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.new {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 46px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 3s;
+}
+
+.new:hover {
+    transform: translate(200px);
+}
+
+.style {
+    list-style: none;
+    word-spacing: 50px;
+    color: blue;
+    margin-top: 40px;
+    font-size: larger;
+    text-align: center;
+    margin-left: 440px;
+    display: inline-block;
+}
+
+.s {
+    display: inline-block;
+    transition: 3s;
+}
+
+.s:hover {
+    transform: scale(1.4);
+}
+
+.boat{
+    display: inline-block;
+    border: 1px solid black;
+    height: 300px;
+    width: 320px;
+    /* margin-top: 90px; */
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+.boat>img {
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+}
+
+.boat img:hover {
+    transform: scale(1.7);
+}
+
+
+
+
+/* .boat img:hover {
+    transform: scale(2);
+} */
+
+/* .boat img{
+    height:240px;
+    width:340px;
+    margin-left:80px;
+    margin-top:90px;
+} */
+
+
+.fast-food {
+    /* border: 1px solid red; */
+    /* height: 280px; */
+    width: 500px;
+    display: inline-block;
+    margin-left: 300px;
+    /* position: relative;
+    bottom:180px; */
+    /* position: relative;
+    top:40px; */
+    margin-top: 60px;
+    transition:2s;
+}
+
+.fast-food:hover{
+    transform: skew(20deg);
+}
+
+
+.fast-food p {
+    font-size: large;
+    line-height: 1.2;
+}
+
+.H{
+    margin-top:60px;
+    text-align: center;
+}
+
+.pizza img{
+    transform: skew(16deg);
+    overflow-x: hidden;
+    height:240px;
+    width:260px;
+    border-radius:10px;
+    margin-top:40px;
+    margin-left:60px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    transition:2s;
+    position: absolute;
+}
+
+.pizza img:hover{
+    transform: skewY(1deg);
+    box-shadow: 0px 0px 10px red;
+}
+
+.mint img{
+    transform: skew(25deg);
+    /* overflow: hidden; */
+    height:240px;
+    width:260px;
+    border-radius:10px;
+    margin-top:36px;
+    margin-left:400px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    transition:2s;
+    position: absolute;
+}
+
+.mint img:hover{
+    transform: skewY(1deg);
+    box-shadow: 0px 0px 10px red;
+}
+
+.third img{
+    transform: skew(35deg);
+    /* overflow: hidden; */
+    height:210px;
+    width:240px;
+    border-radius:10px;
+    margin-top:60px;
+    margin-left:760px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    transition:2s;
+}
+
+.third img:hover{
+    transform: skewY(1deg);
+    box-shadow: 0px 0px 10px red;
+}
+
+.good img{
+    transform: skewY(20deg);
+    /* overflow: hidden; */
+    height:210px;
+    width:240px;
+    border-radius:10px;
+    margin-top:-220px;
+    margin-left:1090px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    transition:2s;
+    position: absolute;
+}
+
+
+.good img:hover{
+    transform: skewX(1deg);
+    box-shadow: 0px 0px 10px red;
+}
+
+.notgood img{
+    /* transform: skewY(20deg); */
+    /* overflow: hidden; */
+    height:210px;
+    width:240px;
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    transition:2s;
+    position: absolute;
+    margin-left:90px;
+    margin-top:80px;
+}
+
+.notgood img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px red;
+}
+
+.worst {
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:450px;
+    margin-top:80px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 2s;
+} 
+
+.worst>img{
+    height:210px;
+    width:240px;
+    /* transition:6s; */
+    /* transform: scale(0.9); */
+}
+
+.worst:hover{
+    box-shadow: 0px 0px 0px red;
+    transform: scale(0.9);
+}
+
+.parents img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:820px;
+    margin-top:120px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 2s;
+    height:160px;
+    width:180px;
+}
+
+.parents img:hover{
+    box-shadow: 0px 0px 0px red;
+    transform: scale(1.3);
+}
+
+.air img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:1080px;
+    margin-top:80px;
+    overflow: hidden;
+    background-color: transparent;    transition: 2s;
+    height:210px;
+    width:260px;
+}
+
+.air img:hover{
+    box-shadow: 0px 0px 0px red;
+    transform: scale(0.9);
+}
+
+.none{
+    text-align: center;
+    margin-top:380px;
+}
+
+.one img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:80px;
+    margin-top:120px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 2s;
+    height:240px;
+    width:260px;
+}
+
+.one img:hover{
+    box-shadow: 15px 10px 10px 10px blue;
+    transform: skewY(10deg);
+}
+
+.two img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:440px;
+    margin-top:120px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 2s;
+    height:240px;
+    width:260px;
+    transform: skew(4deg);
+}
+
+.two img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform: skew(14deg);
+}
+
+.three{
+    background-image: url(./imagess/imgi_12_chef3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:780px;
+    margin-top:160px;
+    overflow: hidden;
+    /* background-color: transparent; */
+    transition: 2s;
+    height:140px;
+    width:230px;
+    /* transform: scale(0.4); */
+}
+
+.three:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform: scale(1.3);
+}
+
+.four img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:1080px;
+    margin-top:120px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 2s;
+    height:240px;
+    width:180px;
+}
+
+.four img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform:scaleX(1.4);
+}
+
+.five img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:80px;
+    margin-top:430px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1.5s;
+    height:240px;
+    width:260px;
+}
+
+.five img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform:skewY(15deg);
+}
+
+.six img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:440px;
+    margin-top:430px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1.5s;
+    height:240px;
+    width:260px;
+}
+
+.six img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform:skew(15deg);
+}
+
+.seven img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:780px;
+    margin-top:430px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1.5s;
+    height:240px;
+    width:260px;
+}
+
+.seven img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform:scale(0.8);
+}
+
+.eight img{
+    border-radius:10px;
+    box-shadow:5px 5px 20px 23px rgba(0, 0, 0, 0.555);
+    position: absolute;
+    margin-left:1070px;
+    margin-top:430px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 1.5s;
+    height:240px;
+    width:260px;
+}
+
+.eight img:hover{
+    box-shadow: -5px 10px 10px 10px blue;
+    transform:scale(0.8);
+}   
